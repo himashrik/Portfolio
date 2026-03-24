@@ -308,3 +308,51 @@ body.light .project-header a {
     padding: 4rem 6%;
   }
 }
+/* ================= EXPERIENCE ================= */
+.experience-container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-card {
+  padding: 1.8rem;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: 0.4s;
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,255,255,0.2);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.experience-header strong {
+  font-size: 1.2rem;
+}
+
+.experience-date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.experience-card ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.experience-card ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
