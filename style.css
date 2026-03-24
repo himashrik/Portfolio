@@ -428,3 +428,38 @@ body.light .project-header a {
     opacity: 0;
   }
 }
+/* ================= HERO TAGS ================= */
+.hero-tags {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero-tags span {
+  padding: 8px 16px;          /* bigger padding */
+  font-size: 1rem;            /* increased size */
+  font-weight: 600;           /* bolder */
+  border-radius: 25px;
+  background: rgba(255,255,255,0.08);
+  border: 1.5px solid rgba(0,245,255,0.5);
+  color: #00f5ff;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+/* Hover effect (stronger) */
+.hero-tags span:hover {
+  background: linear-gradient(90deg,#00f5ff,#ff4ecd);
+  color: black;
+  box-shadow: 0 0 15px rgba(255,0,200,0.7);
+  transform: scale(1.12);
+}
+
+/* Hover glow */
+.hero-tags span:hover {
+  background: linear-gradient(90deg,#00f5ff,#ff4ecd);
+  color: black;
+  box-shadow: 0 0 12px rgba(255,0,200,0.6);
+  transform: scale(1.08);
+}
